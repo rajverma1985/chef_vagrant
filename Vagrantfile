@@ -24,7 +24,7 @@ Vagrant.configure(2) do |config|
     n.vm.box = 'bento/centos-7.2'
     n.vm.box_version = '2.3.1'
     n.vm.hostname = 'chef-ws'
-    n.vm.network :private_network, ip: '192.168.1.50', nic_type: "virtio"
+    n.vm.network :private_network, ip: '192.168.10.40', nic_type: "virtio"
     n.vm.provision :shell, inline: NODE_SCRIPT.dup
    set_hostname(n)
   end

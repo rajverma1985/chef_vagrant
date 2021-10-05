@@ -1,0 +1,23 @@
+From 8d0c283eea23ab7fe3fe2a296cc03e744dcd9d8f Mon Sep 17 00:00:00 2001
+From: Rupal  Verma <rupalverma@Rupals-MacBook-Air.local>
+Date: Tue, 5 Oct 2021 22:48:17 +0530
+Subject: [PATCH] readerme
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 105232f..cf0c294 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,5 @@
+ # chef_vagrant
+-useful commands:
++# useful commands for creating and communicating with vagrant:
+ 
+ vagrant box list
+ vagrant status
+-- 
+2.30.1 (Apple Git-130)
+

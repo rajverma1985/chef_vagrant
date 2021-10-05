@@ -1,5 +1,5 @@
 # chef_vagrant
-useful commands:
+# useful commands for creating and communicating with vagrant:
 
 vagrant box list
 vagrant status
